@@ -19,11 +19,7 @@ yarn install || npm install
 ```sh
 yarn start || npm start
 ```
-#### Build production bundle
 
-```sh
-yarn build || npm build
-```
 ## Server
 
 Before run server you need Python(3.x.x) and Django(3.0.1) installed locally.
@@ -33,7 +29,6 @@ Before run server you need Python(3.x.x) and Django(3.0.1) installed locally.
 ```sh
 cd client
 yarn build || npm build #compile src to build folder
-cd ../server
 py manage.py runserver
 ```
 ## Issues
