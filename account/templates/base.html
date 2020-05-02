@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+<head>
+	<title>{% block title %}{% endblock %}</title>
+	<link href="{% static "base.css" %}" rel="stylesheet">
+</head>
+<body>
+	<div id = "header">
+		<span class="logo">GARAGE APPLICATION</span>
+	</div>
+	<div id="content">
+		{% block content %}
+		{% endblock %}
+	</div>
+
+</body>
+</html>

@@ -5,5 +5,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.FrontEndApp.as_view()),
-    path('', include('webapp.urls'))
+    path('', include('webapp.urls')),
+    path('', include('account.urls'))
 ]
